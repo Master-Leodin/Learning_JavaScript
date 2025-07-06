@@ -16,3 +16,10 @@ console.log(`You can see his projects at: ${gitHub}`);
 const job = (typeOfJob) => typeOfJob;
 console.log(job("Looking for a sponsored visa"));
 
+//Loop
+for(let x = 1; x <= 6; x++){
+    if(x === 1){
+        console.log(`${x} year of training`)
+    }else{
+    console.log(`${x} years of training`);
+};};
