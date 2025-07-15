@@ -1,3 +1,6 @@
+console.log("\nThis is only a backend of JavaScript\n")
+console.log("Look the original code to understand\n")
+
 console.log("First type of funktion");
 function checkPerson(name, age, openToWork){
     return {name, age, openToWork: openToWork ? "Yes" : "No"
