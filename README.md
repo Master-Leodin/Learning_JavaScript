@@ -1,1 +1,1 @@
-My own code to pratice JavaScript
+My own basic code to pratice JavaScript
