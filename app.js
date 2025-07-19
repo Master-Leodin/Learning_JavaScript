@@ -1,6 +1,7 @@
 console.log("\nThis is only a backend of JavaScript\n")
 console.log("Look the original code to understand\n")
 
+//First type of funktion
 console.log("First type of funktion");
 function checkPerson(name, age, openToWork){
     return {name, age, openToWork: openToWork ? "Yes" : "No"
@@ -8,6 +9,7 @@ function checkPerson(name, age, openToWork){
 const person = checkPerson("Leon", 43, true);
 console.log(`The person "${person.name}" have ${person.age} years.\n\nIs open to work?\n${person.openToWork}\n`);
 
+//Second type of function
 console.log("Second type of function");
 const projects = function(link){
     return link;
@@ -15,10 +17,12 @@ const projects = function(link){
 const gitHub = projects("https://github.com/Master-Leodin/Learning_JavaScript");
 console.log(`You can see this projects at: ${gitHub}\n`);
 
+//Third type of function
 console.log("Third type of function");
 const job = (typeOfJob) => typeOfJob;
 console.log(job("Looking for a sponsored visa\n"));
 
+//Loop for
 console.log("Loop for");
 for(let x = 1; x <= 6; x++){
     if(x === 1){
@@ -28,6 +32,7 @@ for(let x = 1; x <= 6; x++){
 };};
 console.log("");
 
+//Array
 console.log("Array");
 const arrayNumbers = [1, 2, 3, 4, 5, 6];
 console.log(`My array is: ${arrayNumbers}`);
